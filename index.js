@@ -12,7 +12,7 @@ Client.on("ready", () => {
 console.log("bot opérationnel")
 });
 
-Client.login("ODkzNTczOTc3NzIzNzc3MDI0.YVdbng.JUJrWAeLj62fUbrkSyZe4OtC7Js")
+
 
 Client.on("messageCreate", message => {
     if (message.author.bot) return;
