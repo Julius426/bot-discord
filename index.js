@@ -13,7 +13,6 @@ console.log("bot opérationnel")
 });
 
 
-
 Client.on("messageCreate", message => {
     if (message.author.bot) return;
     
